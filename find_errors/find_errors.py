@@ -18,7 +18,7 @@ def error_search(log_file):
   return returned_errors
   
 def file_output(returned_errors):
-  with open(os.path.expanduser('~') + '/data/errors_found.log', 'w') as file:
+  with open(os.path.expanduser('~') + '/.errors_found.log', 'w') as file:
     for error in returned_errors:
       file.write(error)
     file.close()
