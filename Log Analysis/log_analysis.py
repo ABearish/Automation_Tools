@@ -42,7 +42,6 @@ def write_to_csv(data_list:dict, filename:str, fieldnames:list)->None:
     except Exception as e:
         print(f"ERROR! during file writing: {e}")
 
-# Parse through log file and extract whether its INFO or ERROR
 def parse_data(file_path:str):
     error_count = {}
     user_count = {} 
