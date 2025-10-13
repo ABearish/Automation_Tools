@@ -17,6 +17,7 @@ Execute the script by providing the path to your log file:
 ```bash
 # Execute directly from this directory
 python3 log_analysis.py /path/to/your/system.log
+```
 
 ## 🛠️ Design & Engineering Decisions
 
